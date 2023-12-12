@@ -1,0 +1,73 @@
+# CompilerName=intelcpp20msvcpp2019
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root\build\win64
+matlabdir = D:\MATLAB2023A
+startdir = D:\MATLAB_Document\ADMM_BCD_new\基于初值搜索算法的异质矩阵回归模型_new
+
+# Toolchain information
+cc = icl
+cxx = icl
+linker = link
+linkerxx = link
+
+cflags =  /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I"$matlabdir\extern\include" -I"$matlabdir\simulink\include" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,"UTF-8" /Qstd=c99 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251 
+
+cxxflags =   /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I"$matlabdir\extern\include" -I"$matlabdir\simulink\include" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,"UTF-8" /Qstd=c++11 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251 
+
+ldflags =  /nologo /manifest /INCREMENTAL:NO  /DLL /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMatlabDataArray.lib  /out:"k_means_regression_tree_single_mex.mexw64" /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmwblas.lib libmwlapack.lib libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib 
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in /Fo$out
+
+rule cxx
+    command = $cxx $cxxflags $in /Fo$out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldflags
+
+# Build
+build $builddir\k_means_regression_tree_single_data.obj : cxx $root\k_means_regression_tree_single_data.cpp
+build $builddir\rt_nonfinite.obj : cxx $root\rt_nonfinite.cpp
+build $builddir\k_means_regression_tree_single_initialize.obj : cxx $root\k_means_regression_tree_single_initialize.cpp
+build $builddir\k_means_regression_tree_single_terminate.obj : cxx $root\k_means_regression_tree_single_terminate.cpp
+build $builddir\k_means_regression_tree_single.obj : cxx $root\k_means_regression_tree_single.cpp
+build $builddir\randperm.obj : cxx $root\randperm.cpp
+build $builddir\rand.obj : cxx $root\rand.cpp
+build $builddir\sum.obj : cxx $root\sum.cpp
+build $builddir\combineVectorElements.obj : cxx $root\combineVectorElements.cpp
+build $builddir\mean.obj : cxx $root\mean.cpp
+build $builddir\indexShapeCheck.obj : cxx $root\indexShapeCheck.cpp
+build $builddir\eml_mtimes_helper.obj : cxx $root\eml_mtimes_helper.cpp
+build $builddir\mtimes.obj : cxx $root\mtimes.cpp
+build $builddir\eye.obj : cxx $root\eye.cpp
+build $builddir\assertValidSizeArg.obj : cxx $root\assertValidSizeArg.cpp
+build $builddir\kron.obj : cxx $root\kron.cpp
+build $builddir\permute.obj : cxx $root\permute.cpp
+build $builddir\inv.obj : cxx $root\inv.cpp
+build $builddir\norm.obj : cxx $root\norm.cpp
+build $builddir\warning.obj : cxx $root\warning.cpp
+build $builddir\find.obj : cxx $root\find.cpp
+build $builddir\_coder_k_means_regression_tree_single_api.obj : cxx $root\interface\_coder_k_means_regression_tree_single_api.cpp
+build $builddir\_coder_k_means_regression_tree_single_mex.obj : cxx $root\interface\_coder_k_means_regression_tree_single_mex.cpp
+build $builddir\eml_int_forloop_overflow_check.obj : cxx $root\eml_int_forloop_overflow_check.cpp
+build $builddir\sumMatrixIncludeNaN.obj : cxx $root\sumMatrixIncludeNaN.cpp
+build $builddir\sort.obj : cxx $root\sort.cpp
+build $builddir\sortIdx.obj : cxx $root\sortIdx.cpp
+build $builddir\k_means_regression_tree_single_mexutil.obj : cxx $root\k_means_regression_tree_single_mexutil.cpp
+build $builddir\_coder_k_means_regression_tree_single_info.obj : cxx $root\interface\_coder_k_means_regression_tree_single_info.cpp
+build $builddir\cpp_mexapi_version.obj : cxx $matlabdir\extern\version\cpp_mexapi_version.cpp
+
+# Link
+build $root\k_means_regression_tree_single_mex.mexw64 : linkxx $builddir\k_means_regression_tree_single_data.obj $builddir\rt_nonfinite.obj $builddir\k_means_regression_tree_single_initialize.obj $builddir\k_means_regression_tree_single_terminate.obj $builddir\k_means_regression_tree_single.obj $builddir\randperm.obj $builddir\rand.obj $builddir\sum.obj $builddir\combineVectorElements.obj $builddir\mean.obj $builddir\indexShapeCheck.obj $builddir\eml_mtimes_helper.obj $builddir\mtimes.obj $builddir\eye.obj $builddir\assertValidSizeArg.obj $builddir\kron.obj $builddir\permute.obj $builddir\inv.obj $builddir\norm.obj $builddir\warning.obj $builddir\find.obj $builddir\_coder_k_means_regression_tree_single_api.obj $builddir\_coder_k_means_regression_tree_single_mex.obj $builddir\eml_int_forloop_overflow_check.obj $builddir\sumMatrixIncludeNaN.obj $builddir\sort.obj $builddir\sortIdx.obj $builddir\k_means_regression_tree_single_mexutil.obj $builddir\_coder_k_means_regression_tree_single_info.obj $builddir\cpp_mexapi_version.obj 

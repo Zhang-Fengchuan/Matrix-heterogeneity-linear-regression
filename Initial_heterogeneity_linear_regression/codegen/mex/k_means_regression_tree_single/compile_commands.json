@@ -1,0 +1,182 @@
+[
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  k_means_regression_tree_single_data.cpp /Fobuild\\win64\\k_means_regression_tree_single_data.obj",
+    "file": "k_means_regression_tree_single_data.cpp",
+    "output": "build/win64/k_means_regression_tree_single_data.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  rt_nonfinite.cpp /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  k_means_regression_tree_single_initialize.cpp /Fobuild\\win64\\k_means_regression_tree_single_initialize.obj",
+    "file": "k_means_regression_tree_single_initialize.cpp",
+    "output": "build/win64/k_means_regression_tree_single_initialize.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  k_means_regression_tree_single_terminate.cpp /Fobuild\\win64\\k_means_regression_tree_single_terminate.obj",
+    "file": "k_means_regression_tree_single_terminate.cpp",
+    "output": "build/win64/k_means_regression_tree_single_terminate.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  k_means_regression_tree_single.cpp /Fobuild\\win64\\k_means_regression_tree_single.obj",
+    "file": "k_means_regression_tree_single.cpp",
+    "output": "build/win64/k_means_regression_tree_single.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  randperm.cpp /Fobuild\\win64\\randperm.obj",
+    "file": "randperm.cpp",
+    "output": "build/win64/randperm.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  rand.cpp /Fobuild\\win64\\rand.obj",
+    "file": "rand.cpp",
+    "output": "build/win64/rand.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  sum.cpp /Fobuild\\win64\\sum.obj",
+    "file": "sum.cpp",
+    "output": "build/win64/sum.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  combineVectorElements.cpp /Fobuild\\win64\\combineVectorElements.obj",
+    "file": "combineVectorElements.cpp",
+    "output": "build/win64/combineVectorElements.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  mean.cpp /Fobuild\\win64\\mean.obj",
+    "file": "mean.cpp",
+    "output": "build/win64/mean.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  indexShapeCheck.cpp /Fobuild\\win64\\indexShapeCheck.obj",
+    "file": "indexShapeCheck.cpp",
+    "output": "build/win64/indexShapeCheck.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  eml_mtimes_helper.cpp /Fobuild\\win64\\eml_mtimes_helper.obj",
+    "file": "eml_mtimes_helper.cpp",
+    "output": "build/win64/eml_mtimes_helper.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  mtimes.cpp /Fobuild\\win64\\mtimes.obj",
+    "file": "mtimes.cpp",
+    "output": "build/win64/mtimes.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  eye.cpp /Fobuild\\win64\\eye.obj",
+    "file": "eye.cpp",
+    "output": "build/win64/eye.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  assertValidSizeArg.cpp /Fobuild\\win64\\assertValidSizeArg.obj",
+    "file": "assertValidSizeArg.cpp",
+    "output": "build/win64/assertValidSizeArg.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  kron.cpp /Fobuild\\win64\\kron.obj",
+    "file": "kron.cpp",
+    "output": "build/win64/kron.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  permute.cpp /Fobuild\\win64\\permute.obj",
+    "file": "permute.cpp",
+    "output": "build/win64/permute.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  inv.cpp /Fobuild\\win64\\inv.obj",
+    "file": "inv.cpp",
+    "output": "build/win64/inv.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  norm.cpp /Fobuild\\win64\\norm.obj",
+    "file": "norm.cpp",
+    "output": "build/win64/norm.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  warning.cpp /Fobuild\\win64\\warning.obj",
+    "file": "warning.cpp",
+    "output": "build/win64/warning.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  find.cpp /Fobuild\\win64\\find.obj",
+    "file": "find.cpp",
+    "output": "build/win64/find.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_k_means_regression_tree_single_api.cpp /Fobuild\\win64\\_coder_k_means_regression_tree_single_api.obj",
+    "file": "interface/_coder_k_means_regression_tree_single_api.cpp",
+    "output": "build/win64/_coder_k_means_regression_tree_single_api.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_k_means_regression_tree_single_mex.cpp /Fobuild\\win64\\_coder_k_means_regression_tree_single_mex.obj",
+    "file": "interface/_coder_k_means_regression_tree_single_mex.cpp",
+    "output": "build/win64/_coder_k_means_regression_tree_single_mex.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  eml_int_forloop_overflow_check.cpp /Fobuild\\win64\\eml_int_forloop_overflow_check.obj",
+    "file": "eml_int_forloop_overflow_check.cpp",
+    "output": "build/win64/eml_int_forloop_overflow_check.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  sumMatrixIncludeNaN.cpp /Fobuild\\win64\\sumMatrixIncludeNaN.obj",
+    "file": "sumMatrixIncludeNaN.cpp",
+    "output": "build/win64/sumMatrixIncludeNaN.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  sort.cpp /Fobuild\\win64\\sort.obj",
+    "file": "sort.cpp",
+    "output": "build/win64/sort.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  sortIdx.cpp /Fobuild\\win64\\sortIdx.obj",
+    "file": "sortIdx.cpp",
+    "output": "build/win64/sortIdx.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  k_means_regression_tree_single_mexutil.cpp /Fobuild\\win64\\k_means_regression_tree_single_mexutil.obj",
+    "file": "k_means_regression_tree_single_mexutil.cpp",
+    "output": "build/win64/k_means_regression_tree_single_mexutil.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_k_means_regression_tree_single_info.cpp /Fobuild\\win64\\_coder_k_means_regression_tree_single_info.obj",
+    "file": "interface/_coder_k_means_regression_tree_single_info.cpp",
+    "output": "build/win64/_coder_k_means_regression_tree_single_info.obj"
+  },
+  {
+    "directory": "D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\\codegen\\mex\\k_means_regression_tree_single",
+    "command": "icl /c /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE -I\"D:\\MATLAB2023A\\extern\\include\" -I\"D:\\MATLAB2023A\\simulink\\include\" /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /DNDEBUG -Qoption,cpp,--unicode_source_kind,\"UTF-8\" /Qstd=c++11 /I \".\" /I \"D:\\MATLAB_Document\\ADMM_BCD_new\\基于初值搜索算法的异质矩阵回归模型_new\" /I \".\\interface\" /I \"D:\\MATLAB2023A\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=k_means_regression_tree_single_mex -DMW_NEEDS_VERSION_H /wd4251  D:\\MATLAB2023A\\extern\\version\\cpp_mexapi_version.cpp /Fobuild\\win64\\cpp_mexapi_version.obj",
+    "file": "D:/MATLAB2023A/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.obj"
+  }
+]
