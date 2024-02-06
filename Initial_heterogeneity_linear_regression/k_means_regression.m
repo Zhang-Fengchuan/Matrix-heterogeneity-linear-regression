@@ -1,30 +1,33 @@
 function [beta_back,gamma_back,coefficients,...
     partitions,combine,residual_coefficients] = k_means_regression(num_partitions,eps_initial,eps_out,iter_max_initial_in,...
                                                 iter_max_initial_out,combine_principle,split_principle,sample_size,row_size,col_size,x,y,random_number)
-%-------------------------------------------函数功能-----------------------------------------------%
-% （残差迭代模型）在给定输入参数的情况下利用残差迭代算法求解亚组分析的初值结果。
-
-%-----------------------------------------输出变量说明---------------------------------------------%
-% beta_back             残差迭代模型返回的行向量取值 [row_size*sample_size] matrix
-% gamma_back            残差迭代模型返回的列向量取值 [col_size*sample_size] matrix
-% coefficients          残差迭代模型返回的两个模型分别的回归系数值 [(row_size+col_size)*模型自动分的组数] matrix
-% partitions            残差迭代模型返回的两个模型的分组索引（相对于原始的x、y的分组索引）[模型自动分的组数*1] cell 
-% combine               残差迭代模型返回的两个模型对应的样本数量 [模型自动分的组数*1] matrix
-% residual_coefficients 第 n 次与第 n-1 次样本重新划分后模型的系数差 [1*1] double
-%-----------------------------------------输入变量说明---------------------------------------------%
-% num_partitions        将数据分成几份
-% eps_initial           每次进行同质模型回归时，每个模型收敛的精度
-% iter_max_initial_in   每次进行同质模型回归时，交替优化的最大步数上限
-% eps_out               第 n 次与第 n-1 次样本重新划分后模型的系数差精度，收敛精度
-% iter_max_initial_out  样本重新划分的最大次数上限
-% sample_size           样本量
-% row_size              行向量维数
-% col_size              列向量维数
-% x                     一次模拟中的解释变量[row_size*col_size*sample_size]
-% y                     一次模拟中的响应变量[sample_size*1]
-% random_number         随机种子数，确保结果可重现
-% combine_principle     c*sample_size; 最少元素个数组合并准则
-% split_principle       c*sample_size; 最多元素个数分数准则
+%-------------------------------------------Functionality-----------------------------------------------%
+% Use the residual iterative algorithm to calculate the initial results of the subcomponent analysis given the input parameters.
+%-----------------------------------------Output Variable Description---------------------------------------------%
+% beta_back             The residual iterative model returns a row vector with dimensions [row_size * sample_size]. matrix
+% gamma_back            The residual iterative model returns a column vector with dimensions [col_size * sample_size]. matrix
+% coefficients          The residual iterative model returns regression coefficients for two separate models, each with dimensions
+%                       [(row_size + col_size) * number of groups automatically divided by the model] matrix
+% partitions            The residual iterative model returns the group indices for the two models, relative to the original x and y group indices,
+%                       with dimensions [number of groups automatically divided by the model * 1]. cell 
+% combine               The residual iterative model returns the sample sizes corresponding to the two models,
+%                       with dimensions [number of groups automatically divided by the model * 1]. matrix
+% residual_coefficients The difference in model coefficients between the n-th iteration and the (n-1)-th iteration,
+%                       after samples have been re-partitioned is represented as a scalar value, with dimensions [1 * 1]. double
+%-----------------------------------------Input Variable Description---------------------------------------------%
+% num_partitions        Divide the data into several parts
+% eps_initial           The precision with which each model converges each time a homogeneous model regression is performed
+% iter_max_initial_in   The maximum number of steps for alternating optimization is capped each time a homogeneous model regression is performed
+% eps_out               The coefficient difference accuracy and convergence accuracy of the model after the n-th and (n-1)-th sample repartition
+% iter_max_initial_out  The upper limit of the maximum number of sample division
+% sample_size           sample size
+% row_size              Row vector dimension
+% col_size              Column vector dimension
+% x                     Explanatory variables in a simulation[row_size*col_size*sample_size]
+% y                     Response variable in a simulation[sample_size*1]
+% random_number         Random seed count to ensure reproducible results
+% combine_principle     c*sample_size; Minimum number of elements combination criteria
+% split_principle       c*sample_size; Maximum number of elements score criteria
 
 
 
@@ -43,14 +46,14 @@ for i = 1:num_partitions
     partitions{i} = sort(partitions{i});
 end
 partitions0 = partitions;
-coefficients = zeros((row_size+col_size),num_partitions);%系数存储矩阵
-residuals = zeros(sample_size,num_partitions);%残差存储矩阵
-beta_back = zeros(sample_size*row_size,1);%返回初值结果
-gamma_back = zeros(sample_size*col_size,1);%返回初值结果
-beta_back0 = zeros(sample_size*row_size,1);%返回初值结果
-gamma_back0 = zeros(sample_size*col_size,1);%返回初值结果
+coefficients = zeros((row_size+col_size),num_partitions);%Coefficient storage matrix
+residuals = zeros(sample_size,num_partitions);%Residual storage matrix
+beta_back = zeros(sample_size*row_size,1);%Return the initial result
+gamma_back = zeros(sample_size*col_size,1);%Return the initial result
+beta_back0 = zeros(sample_size*row_size,1);%Return the initial result
+gamma_back0 = zeros(sample_size*col_size,1);%Return the initial result
 residual_coefficients = 1;
-%初始值随机化机制
+%Initial value randomization mechanism
 beta0 = rand(row_size,1);
 gamma0 = (1/sqrt(col_size))*rand(col_size,1);
 for i = 1:sample_size
@@ -59,7 +62,7 @@ end
 for i = 1:num_partitions
    coefficients(:,i) = [beta0;gamma0]; 
 end
-coefficients0 = coefficients;%每次重新分配样本后回归时使用的初值，不使用warm start
+coefficients0 = coefficients;%The initial value used for regression after each redistribution of the sample, without warm start
 iter_initial_out = 0;
 while(residual_coefficients > eps_out&&iter_initial_out<=iter_max_initial_out)
 for i = 1:num_partitions
@@ -111,7 +114,7 @@ for i = 1:num_partitions
         for j = 1:n_part
             M1 = M1 + ((x_part(:,:,j)'*beta_part)/sigma1)*(beta_part'*x_part(:,:,j));
         end
-        gamma_part = (C1*inv(M1))';%更新gamma
+        gamma_part = (C1*inv(M1))';%update gamma
         for j = 1:n_part
             sigma2 = sigma2 + (1/n_part)*((y_part(j)-mu-gamma_part'*x_part(:,:,j)'*beta_part)/sigma1)*(y_part(j)-mu-gamma_part'*x_part(:,:,j)'*beta_part)';
         end
@@ -125,10 +128,10 @@ for i = 1:num_partitions
     guiyi = sign(gamma_part(1))*sqrt((sqrt(row_size)/sqrt(col_size))*(norm(gamma_part)/norm(beta_part)));
     gamma_part = gamma_part/guiyi;
     beta_part = beta_part*guiyi;
-    coefficients((1:row_size),i) = beta_part;%系数存储矩阵
-    coefficients(((row_size+1):end),i) = gamma_part;%系数存储矩阵
+    coefficients((1:row_size),i) = beta_part;%Coefficient storage matrix
+    coefficients(((row_size+1):end),i) = gamma_part;%Coefficient storage matrix
     for k = 1:sample_size
-        residuals(k,i) = abs(y(k)-beta_part'*(x(:,:,k)-mean(x(:,:,partitions{i}),3))*gamma_part-mean(y_part));%残差存储矩阵
+        residuals(k,i) = abs(y(k)-beta_part'*(x(:,:,k)-mean(x(:,:,partitions{i}),3))*gamma_part-mean(y_part));%Residual storage matrix
     end
 end
 partitions = cell(num_partitions,1);
@@ -146,7 +149,7 @@ for j = 1:num_partitions
 end
 combine_index = min(combine);
 combine_min_index = find(combine==min(combine));
-%合并机制
+%combine Aggregation
 while (combine_index < combine_principle)
 num_partitions = num_partitions - length(combine_min_index);
 residuals(:,combine_min_index) = [];
@@ -167,7 +170,7 @@ end
 combine_index = min(combine);
 combine_min_index = find(combine==min(combine));    
 end
-%分裂机制
+%split mechanism
 split_index = max(combine);
 split_max_index = find(combine==max(combine));
 while (split_index > split_principle)
@@ -176,7 +179,7 @@ while (split_index > split_principle)
     coefficients = [coefficients,zeros((row_size+col_size),length(split_max_index))];
     partitions = [partitions;cell(length(split_max_index),1)];
     for k = 1:length(split_max_index)
-        partitions_old = cell(1,1);%设置开始划分的元胞
+        partitions_old = cell(1,1);%Sets the cell to start partitioning
         partitions_old{1} = partitions{split_max_index(k)};
         sample_size_sum = sample_size;
         [beta_back,gamma_back,coefficients_split,...
@@ -202,8 +205,8 @@ for j = 1:num_partitions
    end
 end
 residual_coefficients = norm([beta_back;gamma_back]-[beta_back0;gamma_back0]);
-beta_back0 = beta_back;%返回初值结果
-gamma_back0 = gamma_back;%返回初值结果
+beta_back0 = beta_back;%Return the initial result
+gamma_back0 = gamma_back;%Return the initial result
 end
 end
 
